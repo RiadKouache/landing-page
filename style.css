@@ -118,3 +118,35 @@ p {
   font-size: 18px;
   color: grey;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  /* flex-wrap: nowrap; */
+}
+
+.testimonial-container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-grow: 0;
+  flex-shrink: 0; */
+}
+
+.testimonial-container p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.testimonial-container span {
+  font-size: 18px;
+  font-weight: 700;
+  align-self: end;
+}
