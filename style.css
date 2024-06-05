@@ -6,6 +6,7 @@ body {
   font-family: "Rubik", monospace;
 }
 
+/* HEADER SECTION */
 header {
   display: flex;
   justify-content: space-around;
@@ -16,7 +17,7 @@ header {
 
 .header-logo img {
   width: 82px;
-  justify-self: start;
+  /* justify-self: start; */
 }
 
 .header-links {
@@ -30,4 +31,49 @@ header {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* HERO SECTION */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 96px;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.heading-primary {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf9;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  padding: 6px 16px 6px 16px;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-image img {
+  max-width: 400px;
 }
