@@ -189,3 +189,16 @@ p {
   font-weight: bold;
   align-self: center;
 }
+
+/* FOOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 32px;
+}
+
+footer span {
+  color: #e5e7eb;
+}
