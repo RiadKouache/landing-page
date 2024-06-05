@@ -77,3 +77,44 @@ p {
 .hero-image img {
   max-width: 400px;
 }
+
+/* INFO SECTION */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 96px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.info-item img {
+  width: 100px;
+}
+
+.info-item p {
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+}
