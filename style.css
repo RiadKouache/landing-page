@@ -150,3 +150,42 @@ p {
   font-weight: 700;
   align-self: end;
 }
+
+/* CTA SECTION */
+
+.cta {
+  padding: 64px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  display: flex;
+  padding: 16px;
+  border-radius: 6px;
+  justify-content: space-around;
+}
+
+.cta-container span {
+  color: #f9faf9;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cta-container p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cta-button {
+  /* justify-self: center; */
+  background-color: #3882f6;
+  border: #e5e7eb solid 2px;
+  border-radius: 8px;
+  width: 120px;
+  height: 64px;
+  padding: 6px 16px 6px 16px;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: center;
+}
